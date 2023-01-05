@@ -1,12 +1,12 @@
 * {
-    font-family: arial,sans-serif;
+    font-family: arial, sans-serif;
 }
 
 body {
     margin: 0;
     background-color: #202124;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     height: 100vh;
     align-items: center;
 }
@@ -15,6 +15,10 @@ body {
     display: flex;
     width: 652px;
     height: 360px;
+}
+
+textarea.output{
+    background-color: #303134;
 }
 
 .output,
@@ -39,9 +43,6 @@ textarea {
     margin-top: 10px;
 }
 
-.output textarea {
-    background-color: #303134
-}
 
 .arrow-container {
     padding: 15px;
@@ -132,7 +133,7 @@ input {
 }
 
 .button-container {
-    color:#bdc1c6;
+    color: #bdc1c6;
     padding: 18px;
     height: 20px;
 }
@@ -152,10 +153,10 @@ input {
     fill: #8ab4f8;
 }
 
-.input .delete {
+.delete {
     position: relative;
     left: 265px;
-    top: -156px;
-    font-size: 50px;
-    color:#bdc1c6;
+    top: -170px;
+    font-size: 30px;
+    color: #bdc1c6;
 }
