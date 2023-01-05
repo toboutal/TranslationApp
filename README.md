@@ -9,9 +9,9 @@ Lancement translate-api :
   - node index.js
   
 Lancement detect-api :
-  - cd translate-api
+  - cd detect-api
   - node index.js
   
 Lancement text-to-speech-api :
-  - cd translate-api
+  - cd text-to-speech-api
   - node index.js
